@@ -1,0 +1,60 @@
+:root {
+  --primary-blue: #156494;
+  --accent-green: #3ab371;
+  --secondary-light: #e7f5ff;
+  --gray-bg: #fbfbfd;
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--gray-bg);
+  color: #17324c;
+}
+
+h1, h2, h3, .navbar-brand span {
+  font-family: var(--font-heading);
+}
+
+.hero {
+  min-height: 60vh;
+}
+
+.counters .counter {
+  font-size: 2.8rem;
+  color: var(--primary-blue);
+  font-family: var(--font-heading);
+  transition: color 0.3s;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.btn-primary {
+  background-color: var(--primary-blue);
+  border-color: var(--primary-blue);
+}
+
+.btn-outline-primary {
+  color: var(--primary-blue);
+  border-color: var(--primary-blue);
+}
+
+.btn-outline-primary:hover, .btn-primary:hover {
+  background-color: var(--accent-green);
+  border-color: var(--accent-green);
+}
+
+section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Simple fade-in animation stub */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: none; }
+}
+.animate-fadeInUp {
+  animation: fadeInUp 0.7s both;
+}
