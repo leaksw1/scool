@@ -216,3 +216,79 @@ section {
     text-align: center;
   }
 }
+
+
+
+
+
+.section-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* Styling for the text */
+.s2-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.s2-content .highlight-orange {
+  color: orange;
+  font-weight: bold;
+}
+
+.s2-content .highlight-teal {
+  color: teal;
+  font-weight: bold;
+}
+
+.s2-desc {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Updated blue line to be vertical */
+.blue-line {
+  display: inline-block;
+  width: 3px;
+  height: 50px;
+  background-color: #00bcd4;
+  margin-right: 10px;
+}
+
+/* Image styling */
+.s2-image img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Responsive styles for phones */
+@media (max-width: 768px) {
+  .section-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .s2-content {
+    padding: 1rem 0;
+  }
+
+  .blue-line {
+    display: none;
+  }
+
+  .s2-desc {
+    justify-content: center;
+    text-align: center;
+  }
+}
