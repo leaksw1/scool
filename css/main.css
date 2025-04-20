@@ -179,3 +179,53 @@ section {
   transform: translateY(-10px) scale(1.1);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
+/* Main image block */
+.main-img {
+  width: 100%;
+  height: 300px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: none; /* hidden by default on desktop */
+}
+
+@media (max-width: 768px) {
+  .section-2 {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 5%;
+  }
+
+  .s2-content {
+    max-width: 100%;
+  }
+
+  .section-2 h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .s2-desc {
+    display: none; /* hide paragraph on small screens */
+  }
+
+  .s2-graphics {
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+    position: relative;
+  }
+
+  /* Show only your custom full image */
+  .main-img {
+    display: block;
+  }
+
+  /* Hide other floating images and hover balls */
+  .img-circle,
+  .hover-ball {
+    display: none;
+  }
+}
+
