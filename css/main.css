@@ -133,3 +133,34 @@ section {
     text-align: center;
   }
 }
+
+
+/*secion 3*/
+
+.learning-section {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  background: #fff;
+}
+
+.learning-content h2 {
+  font-size: 2.3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.learning-content .highlight-orange {
+  color: #f59e0b; /* Amber-500 */
+}
+
+.learning-content .highlight-teal {
+  color: #14b8a6; /* Teal-500 */
+}
+
+.learning-content p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+}
