@@ -58,3 +58,109 @@ section {
 .animate-fadeInUp {
   animation: fadeInUp 0.7s both;
 }
+
+
+/*section 2*/
+.section-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 10%;
+  background: #fff;
+  flex-wrap: wrap;
+}
+
+.s2-content {
+  flex: 1;
+  max-width: 500px;
+}
+
+.section-2 h2 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.highlight-orange {
+  color: #f59e0b; /* Amber-500 */
+}
+
+.highlight-teal {
+  color: #14b8a6; /* Teal-500 */
+}
+
+.s2-desc {
+  font-size: 1rem;
+  color: #555;
+  position: relative;
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+.blue-line {
+  width: 4px;
+  height: 100%;
+  background: #3b82f6; /* Blue-500 */
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.s2-graphics {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  position: relative;
+}
+
+.circle {
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+
+/* Image Circles */
+.img-circle {
+  width: 150px;
+  height: 150px;
+}
+
+.img-circle.medium {
+  width: 120px;
+  height: 120px;
+}
+
+.img-circle.small {
+  width: 100px;
+  height: 100px;
+}
+
+.img-circle.tiny {
+  width: 80px;
+  height: 80px;
+}
+
+/* Hovering Orange Balls */
+.hover-ball {
+  background: #f97316; /* Orange-500 */
+  opacity: 0.8;
+}
+
+.orange-ball.large {
+  width: 80px;
+  height: 80px;
+}
+
+.orange-ball.small {
+  width: 40px;
+  height: 40px;
+}
+
+.hover-ball:hover {
+  transform: translateY(-10px) scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
