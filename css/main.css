@@ -97,8 +97,8 @@ section {
 /* Updated blue line to be vertical */
 .blue-line {
   display: inline-block;
-  width: 7px;
-  height: 70px;
+  width: 9px;
+  height: 80px;
   background-color: #00bcd4;
   margin-right: 10px;
 }
