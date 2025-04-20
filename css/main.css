@@ -128,28 +128,28 @@ section {
 
 /* Main 4 Image Circles */
 .img-circle.img1 {
-  width: 160px;
+  width: 200px;
   height: 160px;
   top: 0;
   left: 0;
 }
 
 .img-circle.img2 {
-  width: 140px;
+  width: 180px;
   height: 140px;
   top: 80px;
   right: 10%;
 }
 
 .img-circle.img3 {
-  width: 120px;
+  width: 140px;
   height: 120px;
   bottom: 120px;
   left: 10%;
 }
 
 .img-circle.img4 {
-  width: 100px;
+  width: 120px;
   height: 100px;
   bottom: 0;
   right: 20%;
@@ -169,8 +169,8 @@ section {
 }
 
 .orange-ball.small {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   bottom: 20%;
   right: 10%;
 }
