@@ -138,13 +138,13 @@ section {
 /*secion 3*/
 
 .learning-section {
-  padding: 3rem 1.5rem;
+  padding: 1rem rem;
   text-align: center;
   background: #fff;
 }
 
 .learning-content h2 {
-  font-size: 2.3rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
   font-weight: 700;
 }
