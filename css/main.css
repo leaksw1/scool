@@ -67,6 +67,8 @@ section {
   align-items: center;
   gap: 2rem;
   padding: 2rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* Styling for the text */
@@ -94,7 +96,7 @@ section {
   align-items: center;
 }
 
-/* Updated blue line to be vertical */
+/* Vertical blue line */
 .blue-line {
   display: inline-block;
   width: 3px;
@@ -117,18 +119,30 @@ section {
   .section-grid {
     grid-template-columns: 1fr;
     text-align: center;
+    width: 100%;
+    padding: 1rem;
   }
 
   .s2-content {
-    padding: 1rem 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .s2-desc {
+    justify-content: center;
+    text-align: center;
   }
 
   .blue-line {
     display: none;
   }
 
-  .s2-desc {
-    justify-content: center;
-    text-align: center;
+  .s2-image {
+    width: 100%;
+  }
+
+  .s2-image img {
+    width: 100%;
+    max-width: 100%;
   }
 }
