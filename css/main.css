@@ -193,8 +193,9 @@ section {
 @media (max-width: 768px) {
   .section-2 {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 40px 5%;
+    text-align: center;
   }
 
   .s2-content {
@@ -204,25 +205,53 @@ section {
   .section-2 h2 {
     font-size: 2rem;
     margin-bottom: 10px;
+    line-height: 1.3;
+  }
+
+  .highlight-orange {
+    color: #f59e0b;
+    display: block;
+  }
+
+  .highlight-teal {
+    color: #14b8a6;
+    display: block;
   }
 
   .s2-desc {
-    display: none; /* hide paragraph on small screens */
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+    padding-left: 0;
+    position: static;
+    margin-bottom: 20px;
+  }
+
+  .blue-line {
+    display: none;
   }
 
   .s2-graphics {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
+    display: flex;
     justify-content: center;
-    position: relative;
   }
 
-  /* Show only your custom full image */
   .main-img {
-    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
   }
 
-  /* Hide other floating images and hover balls */
+  .main-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0;
+  }
+
+  /* Hide other graphics */
   .img-circle,
   .hover-ball {
     display: none;
